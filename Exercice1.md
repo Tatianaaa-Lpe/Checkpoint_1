@@ -19,6 +19,8 @@ Formater les partitions
 blkid permet permet d'avoir les UUID mais aussi de verifier les labels 
 ![LABEL & UUID](VirtualBox_Checkpoint1-SRVDEBIAN_04_04_2025_12_55_23_LABEL.png)
 
+Pour monter la partition automatiquement, on fait nano /etc/fstab
+
 
 
 
