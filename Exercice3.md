@@ -11,13 +11,14 @@
 > + Réponse: git merge test_valide
 
 - <ins>Question5:</ins> Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant
+> + Réponse:  
 > + echo "Bonjour est-ce que ce clavier fonctionne bien ?"
 > + echo "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
 > + echo "Même des tildes ~ ?"
 > + echo "Evidemment !"
 
 - <ins>Question6:</ins> Quelle commande te permet de mettre en avant le processus gedit ?
-> + Réponse
+> + Réponse:  jobs -l | grep gedit
 
 - <ins>Question7:</ins> Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
 > + Réponse:
