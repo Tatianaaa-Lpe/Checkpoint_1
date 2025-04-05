@@ -5,10 +5,10 @@
 > + Réponse: Chmod 744 myfile
 
 - <ins>Question3:</ins> Comment faire pour que les fichiers pdf d'un dépôt local git ne soient pas pris en compte lors d'un git push ?
-> + Réponse: gitignore
+> + Réponse: gitignore *.pdf
 
 - <ins>Question4:</ins> Quelles commandes git utiliser pour fusionner les branches main et test_valide ?
-> + Réponse:
+> + Réponse: git merge test_valide
 
 - <ins>Question5:</ins> Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant
 > + echo "Bonjour est-ce que ce clavier fonctionne bien ?"
