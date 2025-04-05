@@ -26,10 +26,14 @@
 > + Couche3: Routeur =>Permet de relier différents switch, de connecter et voir différentes machines entre elles sur des réseaux différents.
 
 - <ins>Question8:</ins> Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.
-> + Réponse: > cd => Set-Location / cp => copy-Item / mkdir => New-Item / ls => Get-ChildItem
+> + Réponse: >
+> + cd => Set-Location
+> + cp => copy-Item
+> + mkdir => New-Item
+> + ls => Get-ChildItem
 
 - <ins>Question9:</ins> Dans la trame ethernet, qu'est-ce que le payload ?
-> + Réponse: C'est là où se trouve les données réelles transmises
+> + Réponse: C'est la charge utlise. Il contient les données réelles transmises
 
 - <ins>Question10:</ins> Pourquoi les classes IP sont remplacées par le CIDR ?
 > + Réponse: Réduire les gaspillage d'adresses IP
