@@ -1,25 +1,49 @@
-Préparation disques
+# Préparation disques
 
-cfdisk /dev/sdb 
-+ Permet d'afficher le disque
+> + cfdisk /dev/sdb 
+## Permet d'afficher le disque
 
+![Images](Images/Dos.png)
 
-Créer une nouvelle partion 
-+ nouvelle / primaire / 6G
-+ nouvelle / primaire / 4G
-+ Ecrire la partition
-+ Quitter
+## Deux partitions
 
-![Disques](VirtualBox_Checkpoint1-SRVDEBIAN_04_04_2025_12_19_02_Ex1.png) 
+![Images](Images/Primaire.png)
 
-Formater les partitions
-+ mkfs.ext4 -L DATA /dev/sdb1
-+ mkswap -L SWAP /dev/sdb2
+## Sauvegarder
 
-blkid permet permet d'avoir les UUID mais aussi de verifier les labels 
-![LABEL & UUID](VirtualBox_Checkpoint1-SRVDEBIAN_04_04_2025_12_55_23_LABEL.png)
+![Images](Images/Ecrire.png)
+![Images](Images/Partitions_altérées.png)
 
-Pour monter la partition automatiquement, on fait nano /etc/fstab
+## Formater les partitions
+> + mkfs.ext4 -L DATA /dev/sdb1
+> + mkswap -L SWAP /dev/sdb2
+
+## Activation du SWAP
+
+![Images](Images/SWAP_Activé.png)
+
+## Noms des partitions
+
+> + blkid permet permet d'avoir les UUID mais aussi de verifier les labels 
+
+![Images](Images/Noms_partitions.png)
+
+## Montage de la partition
+
+> + mount -t ext4 /dev/sdb1 /mnt-data
+
+![Images](Images/Monter_partition.png)
+
+# Montage Automatique au démarrage
+
+> + nano /etc/fstab
+
+![Images](Images/FSTAB.png)
+
+## Redémarrage de la machine et Vérification
+
+![Images](Images/Vérification.png)
+
 
 
 
