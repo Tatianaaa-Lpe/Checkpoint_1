@@ -22,7 +22,7 @@
 
 - <ins>Question7:</ins> Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
 > + Réponse:
-> + Couche2: Switch et carte réseau =>Un pont permettant de relier, connecter les différentes machines.
+> + Couche2: Switch =>Un pont permettant de relier, connecter les différentes machines.
 > + Couche3: Routeur =>Permet de relier différents switch, de connecter et voir différentes machines entre elles sur des réseaux différents.
 
 - <ins>Question8:</ins> Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.
