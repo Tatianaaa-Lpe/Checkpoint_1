@@ -26,7 +26,7 @@
 > + Couche3: Routeur =>Permet de relier différents switch, de connecter et voir différentes machines entre elles sur des réseaux différents.
 
 - <ins>Question8:</ins> Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.
-> + Réponse: >
+> + Réponse:
 > + cd => Set-Location
 > + cp => copy-Item
 > + mkdir => New-Item
